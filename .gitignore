@@ -3,10 +3,16 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-!**/.env
+
+# Archivos de configuración y credenciales
+/application.properties
+/application.yml
+/application-dev.properties
+/application-dev.yml
+/.env
 
 ### IMGs ###
-!**/src/main/java/com/alumnos/daoalumnos/files
+/src/main/java/com/alumnos/daoalumnos/files/*
 
 ### STS ###
 .apt_generated
